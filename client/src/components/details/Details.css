@@ -1,0 +1,99 @@
+.details-page {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.details-page h1 {
+    color: white;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.details-page .product .price {
+    color: red;
+    font-size: 25px;
+}
+
+.details-page .product {
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 850px;
+    display: inline-block;
+    border: 5px solid #333;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.details-page .product:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.details-page .product img {
+    position: relative;
+    left: 220px;
+    max-width: 420px;
+    max-height: 350px;
+    width: 420px;
+    height: 350px;
+}
+
+.details-page .product h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.details-page .product p {
+    text-align: center;
+    margin: 60px;
+    color: #333;
+    font-size: 25px;
+}
+
+.details-page .product .buttons {
+    margin-top: -30px;
+    text-align: center;
+}
+
+.details-page .buttons a {
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    background-color: #333;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.details-page .buttons a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.details-page .buttons button {
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    background-color: #333;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.details-page .buttons button:hover {
+    background-color: #555;
+    color: #fff;
+}

@@ -1,0 +1,78 @@
+.cart-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cart-item img {
+    max-width: 120px;
+    border-radius: 8px 0 0 8px;
+}
+
+.item-details {
+    display: inline-block;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.item-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.item-details p {
+    margin: 8px 0;
+    color: #777;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+
+.help-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.help-section a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.help-section a:hover {
+    text-decoration: underline;
+}
+
+.cart-items .message {
+    text-align: center;
+    font-size: 20px;
+}

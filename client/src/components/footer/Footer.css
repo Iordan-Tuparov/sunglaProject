@@ -1,0 +1,21 @@
+footer {
+    position: fixed;
+    background-color: #333;
+    text-align: center;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+
+footer a {
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+}

@@ -1,0 +1,29 @@
+.error-container {
+    text-align: center;
+    margin: 10% auto;
+    max-width: 600px;
+    height: 100%;
+    width: 100%;
+}
+
+.error-container h1 {
+    font-size: 120px;
+    color: white;
+}
+
+.error-container p {
+    font-size: 30px;
+    color: white;
+}
+
+.error-container a {
+    text-decoration: none;
+    color: #00476d;
+    background-color: white;
+    font-weight: bold;
+}
+
+.error-container a:hover {
+    text-decoration: underline;
+    color: cadetblue;
+}

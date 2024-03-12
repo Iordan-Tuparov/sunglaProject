@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-image: url("/images/rachel-cook-mOcdke2ZQoE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 43%;
+}
+
+main {
+    margin-bottom: 78px;
+}
+
+.header-page {
+    background-color: #333;
+    height: 61px;
+    position: relative;
+}
+
+.header-page ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 11px;
+}
+
+.header-page li {
+    display: inline;
+}
+
+.header-page .navbar {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header-page .navbar:hover {
+    color: cadetblue;
+}
+
+.header-page .user-photo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    width: 10%;
+    max-width: 60px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page .user-photo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-page .username {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8%;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-page .product-count {
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 1360px;
+    margin: 5px;
+    font-size: 17px;
+}

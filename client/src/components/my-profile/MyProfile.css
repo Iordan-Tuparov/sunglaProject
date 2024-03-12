@@ -1,0 +1,77 @@
+.my-profile {
+    text-align: center;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.my-profile .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #333;
+    max-width: 400px;
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.my-profile .title {
+    margin-top: -3px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.my-profile .img-container {
+    width: 96%;
+    height: auto;
+}
+
+.my-profile img {
+    width: 100%;
+    margin: 8px;
+    border-radius: 20px;
+    max-height: 350px;
+}
+
+.my-profile h2 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.my-profile .liked-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-profile .product {
+    border: 4px solid #333;
+    border-radius: 20px;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.my-profile .product p {
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.my-profile .product a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.my-profile .product a:hover {
+    background-color: #2980b9;
+}

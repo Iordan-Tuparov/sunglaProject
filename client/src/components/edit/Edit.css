@@ -1,0 +1,60 @@
+.edit-page {
+    text-align: center;
+    margin: 20px;
+    height: 100%;
+    width: 90%;
+}
+
+.edit-page h1 {
+    color: white;
+    font-size: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-page form {
+    background-color: white;
+    max-width: 600px;
+    margin: 99px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-page label {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.edit-page input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.edit-page textarea {
+    height: 100px;
+}
+
+.edit-page input[type="submit"] {
+    background-color: #00476d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.edit-page input[type="submit"]:hover {
+    background-color: cadetblue;
+}
